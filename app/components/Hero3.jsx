@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <section className="w-screen min-h-screen flex flex-col lg:grid lg:grid-cols-[8fr_4fr] lg:h-screen lg:overflow-hidden">
       {/* Columna con Texto (Abajo en móvil, Izquierda en LG) */}
-      <div className="bg-[#1f3440] flex items-center relative order-2 lg:order-1 py-12 lg:py-0 min-h-[50vh] lg:min-h-0">
+      <div className="bg-[#1f3440] flex items-center relative order-1 lg:order-1 py-12 lg:py-0 min-h-[50vh] lg:min-h-0">
         {/* Granos de café - Ajustados para mobile */}
         <div className="absolute top-10 left-[-10%] lg:top-42 lg:left-20 z-0 rotate-22">
           <Image
@@ -12,7 +12,7 @@ export default function Hero() {
             alt="Textura café"
             width={400} // Más pequeño en móvil
             height={300}
-            className="object-contain opacity-20 lg:opacity-30 lg:w-[750px]"
+            className="object-contain opacity-20 lg:opacity-30 lg:w-187.5"
           />
         </div>
 
@@ -27,14 +27,14 @@ export default function Hero() {
             asesorías personalizadas.
           </p>
 
-          <button className="bg-white text-[#1f3440] px-10 py-3 rounded-full font-medium hover:bg-gray-100 transition-colors">
+          <button className="bg-white text-[#1f3440] px-10 py-3 rounded-full font-bold hover:bg-gray-100 transition-colors">
             Contáctame
           </button>
         </div>
       </div>
 
       {/* Columna con Imagen (Arriba en móvil, Derecha en LG) */}
-      <div className="relative w-full h-[40vh] sm:h-[50vh] lg:h-full order-1 lg:order-2">
+      <div className="relative w-full h-[40vh] sm:h-[50vh] lg:h-full order-2 lg:order-2">
         <Image
           src="/girl.jpg"
           alt="Asesora de café"
