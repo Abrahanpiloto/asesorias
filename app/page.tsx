@@ -1,11 +1,11 @@
 import Image from "next/image";
-import Hero from "./components/Hero";
+import Hero3 from "./components/Hero3";
 
 export default function Home() {
   return (
     <div className="flex min-h-screen ">
       <main className="">
-        <Hero />
+        <Hero3 />
       </main>
     </div>
   );
