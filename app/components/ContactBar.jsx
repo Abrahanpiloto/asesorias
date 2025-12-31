@@ -1,4 +1,9 @@
 import React from "react";
+import { LuInstagram } from "react-icons/lu";
+import { FaLinkedin } from "react-icons/fa6";
+import { FaFacebook } from "react-icons/fa";
+import { HiOutlineMailOpen } from "react-icons/hi";
+import { FaWhatsapp } from "react-icons/fa";
 
 const ContactBar = () => {
   return (
@@ -8,48 +13,36 @@ const ContactBar = () => {
         <div className="flex flex-wrap justify-center md:justify-start items-center gap-x-8 gap-y-3 w-full md:w-auto">
           {/* Email */}
           <div className="flex items-center gap-2">
-            <div className="p-1.5 border border-orange-500 rounded-lg">
-              {/* <Mail className="w-4 h-4 text-orange-500" /> */}
-            </div>
+            <HiOutlineMailOpen className="w-6 h-6 text-gray-500" />
+
             <span className="text-sm font-medium text-gray-700">
-              hello@imsruthi.com
+              cafe@especialidad.com
             </span>
           </div>
 
           {/* Teléfono */}
           <div className="flex items-center gap-2">
-            <div className="p-1.5 border border-orange-500 rounded-lg">
-              {/* <Phone className="w-4 h-4 text-orange-500 fill-orange-500" /> */}
-            </div>
+            <FaWhatsapp className="w-6 h-6 text-gray-500" />
+
             <span className="text-sm font-medium text-gray-700">
-              +901 5588 2500
+              +51 999 999 999
             </span>
           </div>
         </div>
 
         {/* Lado Derecho / Inferior: Web y Redes Sociales */}
-        <div className="flex flex-row justify-between md:justify-end items-center gap-8 w-full md:w-auto">
-          {/* Website URL */}
-          <div className="flex items-center gap-2">
-            <div className="p-1.5 border border-orange-500 rounded-lg">
-              {/* <Globe className="w-4 h-4 text-orange-500" /> */}
-            </div>
-            <span className="text-sm font-medium text-gray-700">
-              www.mywebsite.com
-            </span>
-          </div>
-
+        <div className="flex flex-row  md:justify-end items-center justify-center gap-8 w-full md:w-auto">
           {/* Social Icons */}
-          <div className="flex items-center gap-3">
-            <div className="bg-black p-1.5 rounded-full cursor-pointer hover:bg-gray-800 transition-colors">
-              {/* <Globe className="w-4 h-4 text-white" />{" "} */}
+          <div className="flex items-center justify-center gap-3">
+            <div className="bg-[#1f3440]  p-1.5 rounded-full cursor-pointer hover:bg-gray-800 transition-colors">
+              <LuInstagram className="text-white w-5 h-5" />
               {/* Usando Globe como placeholder del icono de red */}
             </div>
-            <div className="bg-black p-1.5 rounded-full cursor-pointer hover:bg-gray-800 transition-colors">
-              {/* <Linkedin className="w-4 h-4 text-white fill-white" /> */}
+            <div className="bg-[#1f3440]  p-1.5 rounded-full cursor-pointer hover:bg-gray-800 transition-colors">
+              <FaLinkedin className="text-white w-5 h-5" />
             </div>
-            <div className="bg-black p-1.5 rounded-full cursor-pointer hover:bg-gray-800 transition-colors">
-              {/* <Facebook className="w-4 h-4 text-white fill-white" /> */}
+            <div className="bg-[#1f3440] p-1.5 rounded-full cursor-pointer hover:bg-gray-800 transition-colors">
+              <FaFacebook className="text-white w-5 h-5" />
             </div>
           </div>
         </div>
