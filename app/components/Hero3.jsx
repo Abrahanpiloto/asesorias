@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="w-screen min-h-screen flex flex-col lg:grid lg:grid-cols-[8fr_4fr] lg:h-screen overflow-hidden">
-      {/* Columna con Texto (Arriva en móvil, Izquierda en LG) */}
+    <section className="w-screen flex flex-col lg:grid lg:grid-cols-[8fr_4fr] lg:h-screen overflow-hidden">
+      {/* Columna con Texto (abajo en móvil, Izquierda en LG) */}
       <div className="bg-[#1f3440] flex items-center relative order-1 lg:order-1 py-6 lg:py-0 min-h-[50vh] lg:min-h-0">
         {/* Granos de café - Ajustados para mobile */}
         <div className="absolute top-10 left-[-10%] xl:top-82 xl:left-80 z-0 rotate-22">
