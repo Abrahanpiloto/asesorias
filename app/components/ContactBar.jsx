@@ -9,7 +9,7 @@ const ContactBar = () => {
           {/* Email */}
           <div className="flex items-center gap-2">
             <div className="p-1.5 border border-orange-500 rounded-lg">
-              <Mail className="w-4 h-4 text-orange-500" />
+              {/* <Mail className="w-4 h-4 text-orange-500" /> */}
             </div>
             <span className="text-sm font-medium text-gray-700">
               hello@imsruthi.com
@@ -19,7 +19,7 @@ const ContactBar = () => {
           {/* Teléfono */}
           <div className="flex items-center gap-2">
             <div className="p-1.5 border border-orange-500 rounded-lg">
-              <Phone className="w-4 h-4 text-orange-500 fill-orange-500" />
+              {/* <Phone className="w-4 h-4 text-orange-500 fill-orange-500" /> */}
             </div>
             <span className="text-sm font-medium text-gray-700">
               +901 5588 2500
@@ -32,7 +32,7 @@ const ContactBar = () => {
           {/* Website URL */}
           <div className="flex items-center gap-2">
             <div className="p-1.5 border border-orange-500 rounded-lg">
-              <Globe className="w-4 h-4 text-orange-500" />
+              {/* <Globe className="w-4 h-4 text-orange-500" /> */}
             </div>
             <span className="text-sm font-medium text-gray-700">
               www.mywebsite.com
@@ -42,14 +42,14 @@ const ContactBar = () => {
           {/* Social Icons */}
           <div className="flex items-center gap-3">
             <div className="bg-black p-1.5 rounded-full cursor-pointer hover:bg-gray-800 transition-colors">
-              <Globe className="w-4 h-4 text-white" />{" "}
+              {/* <Globe className="w-4 h-4 text-white" />{" "} */}
               {/* Usando Globe como placeholder del icono de red */}
             </div>
             <div className="bg-black p-1.5 rounded-full cursor-pointer hover:bg-gray-800 transition-colors">
-              <Linkedin className="w-4 h-4 text-white fill-white" />
+              {/* <Linkedin className="w-4 h-4 text-white fill-white" /> */}
             </div>
             <div className="bg-black p-1.5 rounded-full cursor-pointer hover:bg-gray-800 transition-colors">
-              <Facebook className="w-4 h-4 text-white fill-white" />
+              {/* <Facebook className="w-4 h-4 text-white fill-white" /> */}
             </div>
           </div>
         </div>

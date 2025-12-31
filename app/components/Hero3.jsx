@@ -34,7 +34,7 @@ export default function Hero() {
       </div>
 
       {/* Columna con Imagen (Arriba en móvil, Derecha en LG) */}
-      <div className="relative w-full h-[80vh] sm:h-[50vh] lg:h-full order-2 lg:order-2">
+      <div className="relative w-full h-[40vh] sm:h-[50vh] lg:h-full order-2 lg:order-2">
         <Image
           src="/girl.jpg"
           alt="Asesora de café"
