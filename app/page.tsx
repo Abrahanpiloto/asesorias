@@ -4,7 +4,7 @@ import ContactBar from "./components/ContactBar";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen ">
+    <div className="flex min-h-screen overflow-x-hidden">
       <main className="">
         <Hero3 />
         <ContactBar />
