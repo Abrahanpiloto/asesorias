@@ -24,7 +24,7 @@ const AboutMe = () => {
       {/* Contenedor de Contenido - De columna (móvil) a fila (escritorio) */}
       <div className="max-w-[1440px] mx-auto xl:px-24 lg:px-16 px-6 mt-12 flex flex-col lg:flex-row lg:items-start gap-12 lg:gap-24">
         {/* Imagen - Ajuste de altura responsivo */}
-        <div className="relative w-full lg:w-1/3 h-[400px] md:h-[500px] lg:h-[600px]">
+        <div className="relative w-full lg:w-1/3 h-[400px] md:h-[800px] lg:h-[600px]">
           <Image
             src="/aboutme.jpg"
             alt="Asesora de café"
@@ -36,7 +36,7 @@ const AboutMe = () => {
 
         {/* Texto y Estadísticas */}
         <div className="w-full lg:w-1/2 flex flex-col gap-10">
-          <div className="text-gray-800 md:text-xl text-lg leading-relaxed flex flex-col gap-6">
+          <div className="text-gray-800  text-lg leading-relaxed flex flex-col gap-6">
             <p>
               Texto It is a long established fact that a reader will be
               distracted by the readable content of a page when looking at its
