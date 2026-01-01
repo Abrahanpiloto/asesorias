@@ -7,7 +7,7 @@ import Experience from "./components/Experience";
 export default function Home() {
   return (
     <div className="flex min-h-screen overflow-hidden">
-      <main className="">
+      <main className="w-full">
         <Hero3 />
         <ContactBar />
         <AboutMe2 />
