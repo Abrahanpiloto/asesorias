@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Hero3 from "./components/Hero3";
 import ContactBar from "./components/ContactBar";
-import AboutMe from "./components/AboutMe";
+import AboutMe2 from "./components/AboutMe2";
 
 export default function Home() {
   return (
@@ -9,7 +9,7 @@ export default function Home() {
       <main className="">
         <Hero3 />
         <ContactBar />
-        <AboutMe />
+        <AboutMe2 />
       </main>
     </div>
   );

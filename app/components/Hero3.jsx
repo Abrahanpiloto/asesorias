@@ -27,7 +27,7 @@ export default function Hero() {
             asesorías personalizadas.
           </h2>
 
-          <button className="bg-white text-[#1f3440] px-10 py-3 rounded-full font-bold hover:bg-gray-100 transition-colors">
+          <button className="bg-red-500 text-white px-10 py-3 rounded-full font-bold hover:bg-gray-100 transition-colors">
             Contáctame
           </button>
         </div>

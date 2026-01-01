@@ -13,7 +13,7 @@ const ContactBar = () => {
         <div className="flex flex-wrap justify-center items-center gap-x-8 gap-y-3">
           {/* Email */}
           <div className="flex items-center gap-2">
-            <HiOutlineMailOpen className="w-6 h-6 text-gray-500" />
+            <HiOutlineMailOpen className="w-6 h-6 text-red-500" />
             <span className="text-md lg:text-lg font-medium">
               cafe@especialidad.com
             </span>
@@ -21,7 +21,7 @@ const ContactBar = () => {
 
           {/* Teléfono */}
           <div className="flex items-center gap-2">
-            <FaWhatsapp className="w-6 h-6 text-gray-500" />
+            <FaWhatsapp className="w-6 h-6 text-red-500" />
             <span className="text-md lg:text-lg font-medium">
               +51 999 999 999
             </span>
