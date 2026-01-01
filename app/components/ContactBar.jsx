@@ -7,7 +7,7 @@ import { FaWhatsapp } from "react-icons/fa";
 
 const ContactBar = () => {
   return (
-    <div className="w-full py-4 lg:py-0 px-6 lg:h-24 flex items-center">
+    <div className="w-full py-4 lg:py-0 px-22 lg:h-24 flex items-center">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-center md:justify-between items-center w-full gap-4">
         {/* Lado Izquierdo: Contactos */}
         <div className="flex flex-wrap justify-center items-center gap-x-8 gap-y-3">
