@@ -10,10 +10,10 @@ const AboutMe = () => {
   ];
 
   return (
-    <section className="bg-[#F0F0F0] lg:py-32 py-16 px-4">
+    <section className="bg-[#F0F0F0] lg:py-32 py-16 px-4 overflow-hidden">
       {/* Contenedor del Título - Ajuste de padding responsivo */}
-      <div className="max-w-[1440px] mx-auto xl:px-24 lg:px-16 px-6">
-        <div className="flex justify-between items-baseline border-b border-black/80 pb-8">
+      <div className="max-w-7xl mx-auto xl:px-24 lg:px-16 px-6">
+        <div className="flex justify-between items-baseline border-b border-black/80 pb-6">
           <h1 className="lg:text-6xl md:text-5xl text-3xl transform scale-y-125 origin-bottom  tracking-tighter">
             Quien Soy
           </h1>
@@ -22,7 +22,7 @@ const AboutMe = () => {
       </div>
 
       {/* Contenedor de Contenido - De columna (móvil) a fila (escritorio) */}
-      <div className="max-w-[1440px] mx-auto xl:px-24 lg:px-16 px-6 mt-12 flex flex-col lg:flex-row lg:items-start gap-12 lg:gap-24">
+      <div className="max-w-7xl w-full mx-auto xl:px-24 lg:px-16 px-6 mt-12 flex flex-col lg:flex-row lg:items-start gap-12 lg:gap-24">
         {/* Imagen - Ajuste de altura responsivo */}
         <div className="relative w-full lg:w-1/3 h-[400px] md:h-[800px] lg:h-[600px]">
           <Image
@@ -53,10 +53,7 @@ const AboutMe = () => {
           {/* Estadísticas - Grid de 2 columnas en móvil, flex en escritorio */}
           <div className="grid grid-cols-2 md:flex md:flex-wrap gap-x-8 gap-y-10">
             {stats.map((stat, index) => (
-              <div
-                key={index}
-                className="flex flex-col items-start min-w-[140px]"
-              >
+              <div key={index} className="flex flex-col items-start ">
                 <div className="grid grid-cols-[max-content_auto] items-center">
                   <CountStadistics
                     to={stat.value}
