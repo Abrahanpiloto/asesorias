@@ -10,7 +10,7 @@ const AboutMe = () => {
   ];
 
   return (
-    <section className="bg-[#F0F0F0] lg:py-32 py-16">
+    <section className="bg-[#F0F0F0] lg:py-32 py-16 px-4">
       {/* Contenedor del Título - Ajuste de padding responsivo */}
       <div className="max-w-[1440px] mx-auto xl:px-24 lg:px-16 px-6">
         <div className="flex justify-between items-baseline border-b border-black/80 pb-8">
