@@ -59,7 +59,7 @@ const Services = () => {
     const isOpen = openServiceId === service.id;
 
     return (
-      <div className="border-b border-black/10">
+      <div className="border-b border-black/10 ">
         <button
           onClick={() => toggleService(service.id)}
           className="w-full py-6 flex justify-between items-center text-left group"
@@ -113,33 +113,42 @@ const Services = () => {
       <div className="max-w-5xl mx-auto">
         {/* BLOQUE 1: SOLUCIONES B2B */}
         <div className="flex justify-between items-end border-b border-black pb-6 mb-8">
-          <div>
+          <div className="w-full flex justify-between items-baseline">
             <h2 className="text-4xl md:text-7xl tracking-tighter transform scale-y-110 origin-bottom mb-2">
               Servicios
             </h2>
-            <p className="text-xs md:text-sm text-red-600 font-mono tracking-[0.2em] uppercase">
+            {/* <p className="text-xs md:text-sm text-red-600 font-mono tracking-[0.2em] uppercase">
               Soluciones B2B
+            </p> */}
+            <p className="text-xs sm:text-sm md:text-lg text-red-600 font-mono tracking-widest">
+              {" "}
+              - 03 -{" "}
             </p>
           </div>
-          <p className="text-red-500 font-mono"> - 03 - </p>
         </div>
 
-        <div className="mb-20">
+        <div className="mb-2">
+          <p className="text-xs md:text-sm text-red-600 font-mono tracking-[0.2em] uppercase">
+            Soluciones B2B
+          </p>
           {servicesB2B.map((service) => (
             <ServiceItem key={service.id} service={service} />
           ))}
         </div>
 
         {/* BLOQUE 2: CONTROL & CALIDAD */}
-        <div className="flex justify-between items-end border-b border-black pb-6 mb-8 mt-24">
+        <div className="flex justify-between items-end border-b border-black pb-6 mb-8 mt-16">
           <div>
-            <p className="text-xs md:text-sm text-red-600 font-mono tracking-[0.2em] uppercase">
+            {/* <p className="text-xs md:text-sm text-red-600 font-mono tracking-[0.2em] uppercase">
               Control & Calidad
-            </p>
+            </p> */}
           </div>
         </div>
 
         <div>
+          <p className="text-xs md:text-sm text-red-600 font-mono tracking-[0.2em] uppercase">
+            Control & Calidad
+          </p>
           {qualityServices.map((service) => (
             <ServiceItem key={service.id} service={service} />
           ))}
