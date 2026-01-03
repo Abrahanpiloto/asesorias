@@ -26,11 +26,11 @@ const Services = () => {
 
   return (
     <section className="bg-[#F0F0F0] py-16 md:py-32 px-4 overflow-hidden">
-      <div className="max-w-7xl w-full mx-auto xl:px-24 lg:px-16 px-6">
+      <div className="max-w-7xl w-full mx-auto xl:px-24 lg:px-16 px-4">
         {/* Cabecera del componente */}
         <div className="flex justify-between items-baseline border-b border-black pb-6 mb-12">
           <div className="flex flex-col">
-            <h2 className="text-3xl md:text-6xl font-medium tracking-tighter transform scale-y-110 origin-bottom mb-4">
+            <h2 className="text-3xl md:text-6xl tracking-tighter transform scale-y-110 origin-bottom mb-4">
               Servicios
             </h2>
             <p className="text-xs md:text-xl text-red-600 font-mono tracking-widest uppercase">

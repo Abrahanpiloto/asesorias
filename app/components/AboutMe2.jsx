@@ -6,23 +6,23 @@ const AboutMe = () => {
   const stats = [
     { value: 6, label: "Años de experiencia" },
     { value: 80, label: "Proyectos completados" },
-    { value: 120, label: "Clientes satisfechos" },
+    { value: 50, label: "Clientes satisfechos" },
   ];
 
   return (
     <section className="bg-[#F0F0F0] lg:py-32 py-16 px-4 overflow-hidden">
       {/* Contenedor del Título - Ajuste de padding responsivo */}
-      <div className="max-w-7xl mx-auto xl:px-24 lg:px-16 px-6">
+      <div className="max-w-7xl mx-auto xl:px-24 lg:px-16 px-2">
         <div className="flex justify-between items-baseline border-b border-black/80 pb-6">
-          <h1 className="lg:text-6xl md:text-5xl text-3xl transform scale-y-125 origin-bottom  tracking-tighter">
+          <h2 className="lg:text-6xl md:text-5xl text-3xl transform scale-y-125 origin-bottom  tracking-tighter">
             Quien Soy
-          </h1>
+          </h2>
           <p className="md:text-lg text-sm text-red-600 font-mono"> - 01 -</p>
         </div>
       </div>
 
       {/* Contenedor de Contenido - De columna (móvil) a fila (escritorio) */}
-      <div className="max-w-7xl w-full mx-auto xl:px-24 lg:px-16 px-6 mt-12 flex flex-col lg:flex-row lg:items-start gap-12 lg:gap-24">
+      <div className="max-w-7xl w-full mx-auto xl:px-24 lg:px-16 px-2 mt-12 flex flex-col lg:flex-row lg:items-start gap-12 lg:gap-24">
         {/* Imagen - Ajuste de altura responsivo */}
         <div className="relative w-full lg:w-1/3 h-[400px] md:h-[800px] lg:h-[600px]">
           <Image

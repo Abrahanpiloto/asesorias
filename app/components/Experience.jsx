@@ -37,13 +37,13 @@ const Experience = () => {
   ];
 
   return (
-    <section className="bg-white py-12 md:py-24 lg:py-32 px-4 font-sans">
-      <div className="max-w-7xl mx-auto xl:px-24 lg:px-16 px-4">
+    <section className="bg-white py-12 md:py-24 lg:py-32 font-sans px-4">
+      <div className="max-w-7xl mx-auto xl:px-24 lg:px-16 px-2">
         {/* Título Responsivo */}
         <div className="flex justify-between items-baseline border-b border-black pb-4 md:pb-6 mb-8 md:mb-12">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-medium tracking-tighter transform scale-y-110 origin-bottom">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl  tracking-tighter transform scale-y-110 origin-bottom">
             Experiencia
-          </h1>
+          </h2>
           <p className="text-xs sm:text-sm md:text-lg text-red-600 font-mono tracking-widest">
             - 02 -
           </p>
