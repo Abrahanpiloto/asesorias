@@ -3,7 +3,7 @@ import Hero3 from "./components/Hero3";
 import ContactBar from "./components/ContactBar";
 import AboutMe2 from "./components/AboutMe2";
 import Experience from "./components/Experience";
-import Services from "./components/Services";
+import Services2 from "./components/Services2";
 
 export default function Home() {
   return (
@@ -13,7 +13,7 @@ export default function Home() {
         <ContactBar />
         <AboutMe2 />
         <Experience />
-        <Services />
+        <Services2 />
       </main>
     </div>
   );
